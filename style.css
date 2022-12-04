@@ -34,7 +34,9 @@
 
 /* about section image css */
 .imageAboutPage {
-  width: 100%;
+  position: relative;
+  left: -90px;
+ 
 }
 
 /* services section css */
