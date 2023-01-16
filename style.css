@@ -1,13 +1,12 @@
+
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
   background-color: black;
 }
 
-
 /* hero background image */
 .bgimage {
   height: 100vh;
-  max-width: 100%;
   background: url("images/heroImage.jpeg");
   background-size: cover;
   position: relative;
@@ -31,15 +30,17 @@
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
+#about, #services, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
-} */
+}
+#contact {
+    padding-bottom: 4rem;
+}
 
 /* about section image css */
 .imageAboutPage {
-  position: relative;
-  left: -90px;
+  width: 100%;
  
 }
 
@@ -93,3 +94,4 @@
 .sentence {
   font-family: monospace;
 }
+
