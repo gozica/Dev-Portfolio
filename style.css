@@ -66,7 +66,10 @@
 
 
 /* portfolio section */
-
+a.btn-success {
+  background-color: #6F51A3;
+  font-size: 13px;
+}
 
 /* social media icons styling */
 .social-icons {
