@@ -58,11 +58,15 @@
   text-align: center;
 }
 .card:hover .servicesIcon {
-  color: #008000;
+  color: #6F51A3;
 }
 .servicesText:hover {
-  border: 1px solid #008000;
+  border: 1px solid #6F51A3;
 }
+
+
+/* portfolio section */
+
 
 /* social media icons styling */
 .social-icons {
@@ -70,8 +74,13 @@
   cursor: pointer;
 }
 .fa-github:hover {
-  color: #008000;
+  color: #6F51A3;
 }
+
+.fa-linkedin:hover {
+  color:#6F51A3
+}
+
 .fab {
   color: #000000;
 }
