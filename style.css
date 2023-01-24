@@ -64,6 +64,21 @@
   border: 1px solid #6F51A3;
 }
 
+.para {
+  text-align: center;
+  font-size: 19px;
+  font-family: monospace;
+}
+
+.title {
+  font-size: 23px;
+}
+
+.sentence {
+  font-family: monospace;
+}
+
+
 
 /* portfolio section */
 a.btn-success {
@@ -93,17 +108,4 @@ a.btn-success {
   text-align: center;
 }
 
-.para {
-  text-align: center;
-  font-size: 19px;
-  font-family: monospace;
-}
-
-.title {
-  font-size: 23px;
-}
-
-.sentence {
-  font-family: monospace;
-}
 
