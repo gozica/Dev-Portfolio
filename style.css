@@ -1,7 +1,11 @@
-
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
   background-color: black;
+}
+
+li {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* hero background image */
@@ -67,7 +71,7 @@
 
 
 .icon-card {
-  background-color: #fff;
+  background-color: white;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
