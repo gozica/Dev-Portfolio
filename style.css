@@ -45,37 +45,33 @@
 }
 
 /* services section css */
-.servicesText.card {
-  height: 280px;
-  cursor: pointer;
-}
-.servicesIcon {
-  font-size: 25px;
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
   text-align: center;
-  width: 100%;
-}
-.card-title {
-  text-align: center;
-}
-.card:hover .servicesIcon {
-  color: #6F51A3;
-}
-.servicesText:hover {
-  border: 1px solid #6F51A3;
+  margin-top: 2.5rem;
 }
 
-.para {
-  text-align: center;
-  font-size: 19px;
-  font-family: monospace;
+.skill-header {
+  margin-bottom: 1rem;
 }
 
-.title {
-  font-size: 23px;
+.skills-wrapper img {
+  padding: 1.25rem;
 }
 
-.sentence {
-  font-family: monospace;
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
 }
 
 
