@@ -49,39 +49,39 @@ li {
 }
 
 /* services section css */
-.skills {
-  max-width: 68.75rem;
-  margin: auto;
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 25px;
   text-align: center;
-  margin-top: 2.5rem;
+  width: 100%;
 }
-
-.skill-header {
-  margin-bottom: 1rem;
+.card-title {
+  text-align: center;
 }
-
-.skills-wrapper img {
-  padding: 1.25rem;
+.card:hover .servicesIcon {
+  color: #6F51A3;
 }
-
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
+.servicesText:hover {
+  border: 1px solid #6F51A3;
 }
 
 
-.icon-card {
-  background-color: white;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
-  padding: 20px;
-  margin: 10px;
+.para {
+  text-align: center;
+  font-size: 19px;
+  font-family: monospace;
 }
 
-h4 {
-text-align: center;
+.title {
+  font-size: 23px;
 }
 
+.sentence {
+  font-family: monospace;
+}
 
 
 /* portfolio section */
@@ -100,7 +100,7 @@ a.btn-success {
 }
 
 .fa-linkedin:hover {
-  color:#6F51A3
+  color:#6F51A3;
 }
 
 .fab {
