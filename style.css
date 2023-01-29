@@ -110,6 +110,10 @@ a.btn-success {
 .fa-file {
   color: #000000;
 }
+
+.fa-file:hover {
+  color: #6F51A3;
+}
 /* footer styling */
 #footer {
   background-color: whitesmoke;
